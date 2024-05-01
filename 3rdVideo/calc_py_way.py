@@ -19,7 +19,7 @@ while True:
     }
     num1=''
     print ("Enter 1st number: ")
-    while (not num1.isnumeric()):
+    while (not num1.isnumeric()): # prompts the user to enter the first number and keeps asking until a numeric value is provided.
         num1 = input()
     num2=' ' 
     print ("Enter 2nd number: ")
