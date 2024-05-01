@@ -25,3 +25,22 @@ for i in range(2,3):
     print(i)
 
 print(list(range(2, 10)))
+
+num1=4
+num2=5
+num3 = num1 + num2
+print(num3)
+
+num100='6'
+if (num100.isnumeric()):
+    print ("num100 is numeric")
+else:
+    print ("num100 is NOT numeric")
+
+
+um1=''
+print ("Enter 1st number: ")
+while (not um1.isnumeric()):
+    um1 = input()
+print (um1)
+
