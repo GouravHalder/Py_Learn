@@ -22,11 +22,13 @@ except ZeroDivisionError as er:
 import sys
 
 try:
+    print (".........Exception Chaining............")
     f = open('myfile.txt')
     s = f.readline()
     i = int(s.strip())
 except OSError as err:
     print("OS error:", err)
+    raise RuntimeError from None # Raising a RuntimeError from None means that you're explicitly raising the RuntimeError exception, but not specifying another exception as its cause. 
 except ValueError:
     print("Could not convert data to an integer.")
 except Exception as err:
