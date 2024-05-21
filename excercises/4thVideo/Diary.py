@@ -49,14 +49,3 @@ while menu !=3:
      except ValueError as V:
           print("Caught Exiting")
           sys.exit()  # This will exit the Python interpreter
-               
-        
-
-
-
-
-
-"""with open('Diary_entried.txt','w',encoding='utf-8') as f:
-    current_timestamp = datetime.now()
-    human_readable_timestamp = current_timestamp.strftime('%Y-%m-%d %H:%M:%S')
-    f.write(human_readable_timestamp + "-->"+"My diary \n")"""
