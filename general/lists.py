@@ -1,3 +1,7 @@
+"""Lists are mutable, and their elements are usually homogeneous 
+and are accessed by iterating over the list."""
+
+
 numbers=[1,2,3,4,5,66,77.167,77.16,77.17,22,55,6,7,8,9]
 numbers.append(1) # adds to the end of the list
 numbers.sort(key=abs)

@@ -22,3 +22,7 @@ for z in t1:
 t2=[1,2,4,5,6]
 print (type (t2))
 print(t2[2:5]) 
+
+tupple=(1,2,3,4,5)
+tupple=tupple,1
+print(tupple)
