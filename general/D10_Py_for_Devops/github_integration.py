@@ -5,7 +5,6 @@ import pprint
 """/repos/{owner}/{repo}/pulls is the template 
 from https://docs.github.com/en/rest/pulls/pulls?apiVersion=2022-11-28"""
 response=requests.get("https://api.github.com/repos/GouravHalder/Py_Learn/pulls")
-print (response.status_code)
 # Check if the request was successful
 if response.status_code == 200:
     # Parse the JSON response
