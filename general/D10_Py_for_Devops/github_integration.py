@@ -16,7 +16,7 @@ if response.status_code == 200:
     
     # Accessing and printing the 'id' of the first pull request
     if pull_requests:
-        print(f"ID of the first pull request: {pull_requests[0]['title']}")
+        print(f"Title of the first Release version 1.0.0 pull request: {pull_requests[0]['title']}")
     else:
         print("No pull requests found.")
 else:
